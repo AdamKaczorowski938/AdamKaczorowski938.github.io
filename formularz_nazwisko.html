@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-    <head>
-        <meta charset="utf-8">
-        <title>Formularz kaczorowski</title>
-    </head>
+<html>
 
-    <body>
-        <img src="zdjęcia/form.png" border="0" width='40' height="60" css="center"></css>
-        <p>Tutaj będzie formularz</p>
+<head>
+    <meta charset="utf-8">
+    <title>Formularz Kaczorowski</title>
+</head>
+
+<body bgcolor="pink">
+    <img src="obrazy/form.png" border="0" width="70" height="50" align="left">
         <a href="./index.html">wróć</a>
 
-    </body>
+    <center>
+        <h1> Formularz zgłoszeń na moderatora Discord serwera Avira</h1>
+    </center>
+    <form enctype="text/plain" action="mailto:adakacz82@edu.gdansk.pl" subject="formularz_dane" method="Post">
+        <TABLE>
+            <TR height="100">
+                <TD style="width: 50vw">
+                    <b>Wpisz swoje Imie i Nazwisko</b> 
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="32">
+                    <br><br>
+
+                    <b>Adres e-mail</b>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp
+                    <input name="email" size="32">
+                    <br><br>
+
+                    <b>Numer Telefonu</b> &nbsp &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp 
+                    &nbsp &nbsp &nbsp <input name="telefon" maxlength="32" size="32">
+                    <br><br>
+
+                    <b>Wiek</b> &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp    &nbsp &nbsp &nbsp&nbsp  &nbsp  
+            
+                        <input name="wiek" SIZE="32" rows="1">
+                    <br><br>
+
+                    <nobr>
+                        <br>
+                </TD>
+                <TD>
+                    <b>Jak dowiedziałeś/aś się o warsztatach</b><br>
+                    <input type="radio" name="strona Internetowa" checked>strona Internetowa<br>
+                    <input type="radio" name="Social Media">Social Media<br>
+                    <input type="radio" name="od znajomego">od znajomego<br>
+                    <input type="radio" name="Inne">Inne<br>
+                    <input name="inne" size="32">
+
+                    <br><br><br><br><br>
+                    <b>Dlaczego chcesz wziąć udział w warsztatach???</b><br>
+                    <input name="pyt6" SIZE="32" rows="1">
+
+                </TD>
+            </TR>
+            <TR height="150">
+                <td colspan="2">
+                    <b>Czy masz wcześniejsze doświadczenie w podobnych warsztatach???</b><br>
+                    <input type="checkbox" name="pyt7">tak
+                    <br>
+                    <input type="checkbox" name="pyt7">nie
+                    <br><br><br>
+                    <b>Czy masz jakieś oczekiwania względem tych warsztatów???</b><br>
+                    <input name="inne" size="32">   
+                </td>
+            </TR>
+            <TR height="150">
+                <td>
+                    <b>Czy masz specjalne potrzeby lub preferencje (np.dieta ,dostępność)???</b><br>
+                    <input name="inne" size="32">  
+        <br><br><br><br><br><br>
+
+      <ing scr="facebook.png"></ing> <a href="https://www.facebook.com/?locale=pl_PL"> Udostępnij ankietę na Facebook</a><br><br>
+       <ing scr="instagram.jpg"<a href="https://www.instagram.com/"> Udostępnij ankietę na Instagramie</a>
+                </td>
+    <td>
+                    <nobr><input type="reset" value="Reset" style="height:80px; width:150px">
+                      
+                </TD>
+                <TD> <input type="submit" value="Wyślij formularz" style="height:80px; width:150px"> </TD>
+            </TR>
+            <tr height="50">
+                <TD><button onclick="alert('NIESPODZIANKA!!!')" style="height:80px;width:300px">Przycisk niespodzianka</button>
+                </TD>
+            </tr>
+        </TABLE>
+    </form> 
+</body>
+
 </html>
